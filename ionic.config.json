@@ -1,0 +1,7 @@
+{
+  "name": "sena_ionic_project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
