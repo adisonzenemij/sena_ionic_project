@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
 
   ngOnInit(): void {
     const browserInstance = this.browser.create(
-      'https://piis.adisonjimenez.work/sena_angular_project',
+      'https://piis.adisonjimenez.work/sena_angular_project/',
       '_self', 'location=no,hidenavigationbuttons=true,hideurlbar=true,zoom=no'
     );
     browserInstance.on('exit').subscribe((evt) => {
