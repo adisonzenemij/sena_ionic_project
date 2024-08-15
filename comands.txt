@@ -1,0 +1,24 @@
+ionic --version
+ionic start:
+	Use the app creation wizard?: No
+	Framework: Angular
+	Project name: sena_ionic_project
+	Startet template: blank
+	Create free Ionic account: n
+ionic serve
+
+https://danielsogl.gitbook.io/awesome-cordova-plugins/in-app-browser
+
+ionic cordova plugin add cordova-plugin-inappbrowser
+npm install @awesome-cordova-plugins/in-app-browser
+
+npm install cordova-plugin-inappbrowser
+npm install @awesome-cordova-plugins/in-app-browser
+npm install @awesome-cordova-plugins/core
+--- ionic cap sync
+--- ionic cap add android
+
+ionic cap sync
+ionic cap copy
+ionic cap build
+	What platform would you like to build for: android
